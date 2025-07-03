@@ -14,3 +14,7 @@ feitas pelos próprios desenvolvedores da Docker.
 Docker tags -> são usadas para identificar images por nome 
 
 Container Port -> são chaves de entrada para ter acesso ao seu site.
+
+Dockerfile -> onde vamos criar a definição da nossas images, para que possam ser utilizadas depois
+base image -> a base para a construçao de imagens de diferentes linguagens, então cada linguagem vai ter uma base 
+na hora da construção
