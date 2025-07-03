@@ -13,3 +13,15 @@ que podem ser úteis na hora de usar o Docker.
 ~ docker run -p x:80... -> mudar a chave de entrada do site para uma da sua escolha 
 ~ docker start -> reinicia um container ja utilizado
 ~ docker run --name {o nome da sua escolha}... -> escolher um nome para o seu container
+
+
+Agora já estamos um pouco mais avançado, a partir daqui ja estamos criando as nossas próprias imagens e para isso 
+tem alguns comandos, tá pra mais linhas de código dentro do arquivo "Dockerfile" dentro do vscode.
+
+~ FROM -> vai utilizar isso pra puxar a parte escencial do código, assim podendo ter acesso as linguagens de 
+programação
+~ RUN -> vai aplicar comandos enquanto o código estiver funcionando. {dentro do container}
+~ COPY -> vai copiar arquivos ou diretórios para o sistema
+~ WORKIR -> funciona da mesma forma que um "cd" no terminal
+~ CMD ["..."] -> vai começar o código
+~ docker build -t {nome} . -> cirar a imagem 
