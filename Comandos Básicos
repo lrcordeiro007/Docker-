@@ -4,4 +4,8 @@ que podem ser úteis na hora de usar o Docker.
 
 ~ docker images  -> mostra uma lista das imagens presentes no docker
 ~ docker ps -> mostra uma lista dos containers
-~ 
+~ docker pull {nome}:{tag} -> puxa a image do docker hub(registry)
+~ docker run {nome}:{tag} -> faz a images funcionar em containers
+  (caso vc queira utilizar o terminal enquanto roda a image faça ...run -d ...) {-d é de detach}
+  (não precisa utilizar o "pull" ja que o Docker ao ver que você não possui localmente ele mesmo faz essa função)
+~ docker logs {container} -> ver as informações do container
