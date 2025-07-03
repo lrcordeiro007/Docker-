@@ -12,3 +12,5 @@ Docker hub -> comunidade a qual você terá acesso a images feitas por desenvolv
 feitas pelos próprios desenvolvedores da Docker.
 
 Docker tags -> são usadas para identificar images por nome 
+
+Container Port -> são chaves de entrada para ter acesso ao seu site.
