@@ -1,1 +1,7 @@
-Aqui está uma lista básica de comandos Docker,com suas respectivas funções, que podem ser úteis na hora de usar o Docker.
+Aqui está uma lista básica de comandos Docker,com suas respectivas funções, 
+que podem ser úteis na hora de usar o Docker.
+
+
+~ docker images  -> mostra uma lista das imagens presentes no docker
+~ docker ps -> mostra uma lista dos containers
+~ 
