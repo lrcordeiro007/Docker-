@@ -9,3 +9,7 @@ que podem ser úteis na hora de usar o Docker.
   (caso vc queira utilizar o terminal enquanto roda a image faça ...run -d ...) {-d é de detach}
   (não precisa utilizar o "pull" ja que o Docker ao ver que você não possui localmente ele mesmo faz essa função)
 ~ docker logs {container} -> ver as informações do container
+~ docker stop {container} -> para um ou mais container.
+~ docker run -p x:80... -> mudar a chave de entrada do site para uma da sua escolha 
+~ docker start -> reinicia um container ja utilizado
+~ docker run --name {o nome da sua escolha}... -> escolher um nome para o seu container
