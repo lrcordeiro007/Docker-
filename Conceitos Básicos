@@ -1,0 +1,14 @@
+Aqui vou deixar registrado alguns conceitos que eu vou aprendendo com os tutoriais.
+
+Images -> são as receitas dos códigos, ou seja, são documentos que vão possuir todas as informações importantes 
+para que o código funcione da forma que a gente queira. Assim o nosso código vai poder funcionar em qualquer máquina seja
+a nossa ou de qualquer outra pessoa.
+
+Containers -> são os programas gerados pelas imagens que estão sendo compartilhados com a pessoa desejada.
+
+Docker Registries -> armazenamento para distribuição de Docker images para quem quiser utiliza-las.
+
+Docker hub -> comunidade a qual você terá acesso a images feitas por desenvolvedores assim como images 
+feitas pelos próprios desenvolvedores da Docker.
+
+Docker tags -> são usadas para identificar images por nome 
